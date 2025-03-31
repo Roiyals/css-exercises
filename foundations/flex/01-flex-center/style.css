@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box {
@@ -13,3 +16,7 @@
   width: 80px;
   height: 80px;
 }
+
+/* Alternate solution is to add margin: auto to the flex item (.box)
+
+*/
